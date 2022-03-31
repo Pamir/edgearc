@@ -13,5 +13,5 @@ spec:
     name: edge-kubernetes
     version: 0.2.3
   valuesFrom:
-    - secretKeyRef:
-        name: dcs
+  - kind: Secret
+    name: dcs
